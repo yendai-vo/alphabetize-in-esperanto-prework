@@ -6,5 +6,5 @@ def alphabetize(arr)
     end
   end
 
-  array
+  arr
 end
