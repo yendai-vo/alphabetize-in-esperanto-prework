@@ -1,5 +1,4 @@
 def alphabetize(arr)
-  puts arr
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   sortedArray = arr.sort_by do |phrase|
     phrase.split("").map do |character|
