@@ -5,4 +5,6 @@ def alphabetize(arr)
       return alphabet.index(character)
     end
   end
+
+  array
 end
