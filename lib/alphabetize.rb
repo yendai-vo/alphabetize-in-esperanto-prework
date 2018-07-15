@@ -1,6 +1,6 @@
 def alphabetize(arr)
   puts arr
-  alphabet = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |phrase|
     phrase.split("").map do |character|
       return alphabet.index(character)
