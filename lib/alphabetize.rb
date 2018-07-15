@@ -1,11 +1,13 @@
 def alphabetize(arr)
   puts arr
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by do |phrase|
+  sortedArray = arr.sort_by do |phrase|
     phrase.split("").map do |character|
       return alphabet.index(character)
     end
   end
 
-  arr
+  puts 'woo'
+  puts sortedArray
+  sortedArray
 end
